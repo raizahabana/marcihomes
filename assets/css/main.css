@@ -1722,7 +1722,7 @@ section,
 --------------------------------------------------------------*/
 section#search-section {
     background: url('f4c4bae1-513f-44de-b1cd-d4fa0ccf3b37.png') center/cover no-repeat;
-    min-height: 100px;
+    min-height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
