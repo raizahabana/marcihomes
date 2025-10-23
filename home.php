@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Marci Metzger Homes</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/marci.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header fixed-top">
+
+        <div class="topbar d-flex align-items-center">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+                <div class="contact-info d-flex align-items-center">
+                    <i class="bi bi-envelope d-flex align-items-center"><a
+                            href="mailto:contact@example.com">marcimetzger@example.com</a></i>
+                    <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+                </div>
+                <div class="languages d-none d-md-flex align-items-center">
+                    <ul>
+                        <li><a href=""><i class="bi bi-twitter-x"></i></a></li>
+                        <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                        <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                        <li><a href=""><i class="bi bi-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- End Top Bar -->
+
+        <div class="branding d-flex align-items-cente">
+
+            <div class="container position-relative d-flex align-items-center justify-content-between">
+                <a href="home.php" class="logo d-flex align-items-center me-auto me-xl-0">
+                    <h3 class="sitename">MARCI METZGER </h3>HOMES
+                </a>
+
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <!-- <li><a href="#hero" class="active">Home<br></a></li> -->
+                        <li><a href="#about">About US</a></li>
+                        <li><a href="#listing">Listing</a></li>
+                        <li><a href="#partner">Partner</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <!-- <li><a href="#contact">Contact Us</a></li> -->
+                        <!-- <li class="dropdown"><a href="#"><span>Furniture</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#">Furniture 1</a></li>
+                                <li class="dropdown"><a href="#"><span>New Furniture</span> <i
+                                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                    <ul>
+                                        <li><a href="#">New Furniture 1</a></li>
+                                        <li><a href="#">New Furniture 2</a></li>
+                                        <li><a href="#">New Furniture 3</a></li>
+                                        <li><a href="#">New Furniture 4</a></li>
+                                        <li><a href="#">New Furniture 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Furniture 2</a></li>
+                                <li><a href="#">Furniture 3</a></li>
+                                <li><a href="#">Furniture 4</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+
+                <a class="btn-book-a-table d-none d-xl-block" href="#contact">Contact Us</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+
+            <img src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/mtn%20falls%20pond.jpg"
+                alt="" data-aos="fade-in">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
+                        <p data-aos="fade-up" data-aos-delay="200">Pahrump Realtor</p>
+                        <h2 data-aos="fade-up" data-aos-delay="100">MARCI METZGER - <span>THE RIDGE REALTY GROUP</span>
+                        </h2>
+                        <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+                            <a href="#menu" class="cta-btn">Explore</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5 mt-lg-0">
+                        <a href="https://www.youtube.com/watch?v=1UiokDqeUS0" class="glightbox pulsating-play-btn"></a>
+                    </div>
+                </div>
+            </div>
+
+        </section><!-- /Hero Section -->
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+                    <div class="col-lg-4 order-1 order-lg-2 mx-auto">
+                        <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/photo-5db79f9.jpg/:/cr=t:14.65%25,l:0%25,w:100%25,h:66.64%25/rs=w:365,h:365,cg:true"
+                            class="img-fluid about-img" alt="" style="width: 350px; height: 350px;">
+                    </div>
+                    <div class="col-lg-8 order-2 order-lg-1 content">
+                        <h3>Marci J Metzger</h3>
+                        <span>REALTOR for Nearly Three Decades</span>
+                        <p class="fst-italic">
+
+                        </p>
+                        <ul>
+                            <li><i class="bi bi-check2-all"></i> <span>Marci was a REALTOR, then licensed Broker, in
+                                    Washington State.</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Now, she is enjoying the sunshine, and helping
+                                    clients in Southern Nevada.</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Having helped buyers and sellers in many markets
+                                    since 1995, she is a wealth of knowledge..</span></li>
+                        </ul>
+                        <p>
+                            "I love that small-town feeling that our community offers. Spectacular golf courses, parks,
+                            pool, and easy access to Las Vegas make Pahrump a great place to call home. Working or
+                            retired, fast-paced or looking to relax... there's a place for you here!
+                            I enjoy living in the Mountain Falls community and will strive to find you a home that will
+                            suit you just as this community does me."
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- /About Section -->
+
+           <!-- Events Section -->
+    <section id="events" class="events section">
+
+      <img class="slider-bg" src="https://i.pinimg.com/1200x/13/ec/7d/13ec7d6588e0a143cede2c59b580481f.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+
+        <div class="swiper init-swiper" data-aos="fade-up" data-aos-delay="100">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row gy-4 event-item">
+                <div class="col-lg-6">
+                  <img src="https://img1.wsimg.com/isteam/stock/3395/:/cr=t:11.02%25,l:0%25,w:100%25,h:77.95%25/rs=w:600,h:300,cg:true/qt=q:8" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Top Residential Sales Last 5 Years</h3>
+                  <p class="fst-italic">
+                   We helped nearly 90 clients in 2021, and closed 28.5 million in sales! 
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check2-circle"></i> <span>Consistently ranked among the top-performing residential sales teams in our area.</span></li>
+                    <li><i class="bi bi-check2-circle"></i> <span>Delivering personalized service and expert guidance to every client, every time.</span></li>
+                    <li><i class="bi bi-check2-circle"></i> <span>Dedicated to continuous improvement and achieving record-breaking results year after year.</span></li>
+                  </ul>
+                  <p>
+                    Our team works hard everyday to grow and learn, so that we may continue to excel in our market. Our clients deserve our best, & we want to make sure our best is better every year.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End Slider item -->
+
+            <div class="swiper-slide">
+              <div class="row gy-4 event-item">
+                <div class="col-lg-6">
+                  <img src="https://img1.wsimg.com/isteam/stock/107927/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300/qt=q:8g" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Don't Just List it...</h3>
+                  <p class="fst-italic">
+                    Get it SOLD! 
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check2-circle"></i> <span>Maximum Exposure, Maximum Results – We market your home everywhere buyers are looking to get it sold fast and for top dollar.</span></li>
+                    <li><i class="bi bi-check2-circle"></i> <span>Driven to Sell, Not Just List – Every listing gets a customized marketing strategy designed to attract serious buyers.</span></li>
+                    <li><i class="bi bi-check2-circle"></i> <span>Your Home, Our Mission – We don’t stop until your property is sold for the best possible price.</span></li>
+                  </ul>
+                  <p>
+                   We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End Slider item -->
+
+            <div class="swiper-slide">
+              <div class="row gy-4 event-item">
+                <div class="col-lg-6">
+                  <img src="https://img1.wsimg.com/isteam/stock/771/:/cr=t:5.36%25,l:1.76%25,w:96.47%25,h:89.29%25/rs=w:600,h:300,cg:true,m/qt=q:8" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Guide to Buyers</h3>
+                  <p class="fst-italic">
+                    Nobody knows the market like we do. Enjoy having a pro at your service.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check2-circle"></i> <span>Expert Market Insights: Get access to in-depth market analysis and personalized buying guidance.</span></li>
+                    <li><i class="bi bi-check2-circle"></i> <span>Trusted Local Network: From contractors to inspectors — we’ve got the right people ready to help.</span></li>
+                    <li><i class="bi bi-check2-circle"></i> <span>Seamless Buying Experience: Enjoy stress-free home buying with expert support every step of the way.</span></li>
+                  </ul>
+                  <p>
+                    Market analysis, upgrades lists, contractors on speed dial, & more!
+                  </p>
+                </div>
+              </div>
+            </div><!-- End Slider item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Events Section -->
+
+        <!-- Partner Section -->
+        <section id="partner" class="py-4 bg-white align-items-center">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4 m-5">
+                    <div class="col-lg-3">
+                        <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/BIG%20CIRCLE%202.png/:/rs=h:100,cg:true,m"
+                            srcset="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/BIG%20CIRCLE%202.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100, //img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/BIG%20CIRCLE%202.png/:/rs=w:200,h:200,cg:true,m/cr=w:200,h:200 2x"
+                            alt="The Ridge Realty Group" class="img-fluid" style="max-height:100px;">
+                    </div>
+
+                    <div class="col-lg-3">
+                        <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/Equal%20Housing%20Logo.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:100,cg:true"
+                            alt="Equal Housing Opportunity" class="img-fluid" style="max-height:100px;">
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/Realtor%20Pin.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:100,cg:true"
+                            alt="Realtor Logo" class="img-fluid" style="max-height:100px;">
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/Chamber.jpg/:/rs=h:100,cg:true,m"
+                            alt="Pahrump Valley Chamber of Commerce" class="img-fluid" style="max-height:100px;">
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Partner Section -->
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Gallery</h2>
+                <p>Some photos from Our Resedentials</p>
+            </div><!-- End Section Title -->
+
+            <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row g-0">
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/4460%20Roseworthy-52.jpg-SMALL.JPG/:/"
+                                class="glightbox" data-gallery="images-gallery">
+                                <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/4460%20Roseworthy-52.jpg-SMALL.JPG/:/"
+                                    alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div><!-- End Gallery Item -->
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-14.jpg-SMALL.JPG/:/cr=t:0%25,l:0.05%25,w:99.9%25,h:99.9%25"
+                                alt="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-14.jpg-SMALL.JPG/:/rs=w:1300,h:800"
+                                class="glightbox" data-gallery="images-gallery">
+                                <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-14.jpg-SMALL.JPG/:/cr=t:0%25,l:0.05%25,w:99.9%25,h:99.9%25"
+                                    alt="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-14.jpg-SMALL.JPG/:/rs=w:1300,h:800"
+                                    alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div><!-- End Gallery Item -->
+
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-45.jpg-SMALL.JPG/:/"
+                                class="glightbox" data-gallery="images-gallery">
+                                <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-45.jpg-SMALL.JPG/:/"
+                                    alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div><!-- End Gallery Item -->
+
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-50.jpg-SMALL.JPG/:/"
+                                class="glightbox" data-gallery="images-gallery">
+                                <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/5570%20Ailanto-50.jpg-SMALL.JPG/:/"
+                                    alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div><!-- End Gallery Item -->
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/4787%20E%20Beacon%20Ridge-54.jpg-SMALL.JPG/:/"
+                                class="glightbox" data-gallery="images-gallery">
+                                <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/4787%20E%20Beacon%20Ridge-54.jpg-SMALL.JPG/:/"
+                                    alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div><!-- End Gallery Item -->
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/4787%20E%20Beacon%20Ridge-53.jpg-SMALL.JPG/:/"
+                                class="glightbox" data-gallery="images-gallery">
+                                <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/4787%20E%20Beacon%20Ridge-53.jpg-SMALL.JPG/:/"
+                                    alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div><!-- End Gallery Item -->
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="//img1.wsimg.com/isteam/stock/uKk8BYlqaPs99mggk/:/rs=w:1023,m" class="glightbox"
+                                data-gallery="images-gallery">
+                                <img src="//img1.wsimg.com/isteam/stock/uKk8BYlqaPs99mggk/:/rs=w:1023,m" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div><!-- End Gallery Item -->
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="//img1.wsimg.com/isteam/stock/143/:/rs=w:1023,m" class="glightbox"
+                                data-gallery="images-gallery">
+                                <img src="//img1.wsimg.com/isteam/stock/143/:/rs=w:1023,m" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div><!-- End Gallery Item -->
+
+                </div>
+
+            </div>
+
+        </section><!-- /Gallery Section -->
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
+                <p>Contact Us</p>
+            </div><!-- End Section Title -->
+
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-6">
+                        <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+                            <iframe style="border:0; width: 100%; height: 500px;"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                                frameborder="0" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div><!-- End Google Maps -->
+                    </div>
+
+                    <div class="col-lg-6">
+                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                            data-aos-delay="200">
+                            <div class="row gy-4">
+
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" rows="13" placeholder="Message"
+                                        required=""></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                                    <button type="submit">Send Message</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div><!-- End Contact Form -->
+
+                </div>
+
+                <div class="row gy-12 m-5">
+                    <div class="col-lg-3">
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-geo-alt flex-shrink-0"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
+                            </div>
+                        </div><!-- End Info Item -->
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-clock flex-shrink-0"></i>
+                            <div>
+                                <h3>Office Hours</h3>
+                                <p>Monday-Sunday:<br>08:00 AM - 19:00 PM</p>
+                            </div>
+                        </div><!-- End Info Item -->
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-telephone flex-shrink-0"></i>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>+(206) 919-6886</p>
+                            </div>
+                        </div><!-- End Info Item -->
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                            <i class="bi bi-envelope flex-shrink-0"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>marcimetzger@example.com</p>
+                            </div>
+                        </div><!-- End Info Item -->
+                    </div>
+
+                </div>
+            </div>
+
+        </section><!-- /Contact Section -->
+
+    </main>
+
+
+    <footer id="footer" class="footer dark-background">
+
+        <div class="container footer-top" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="home.php" class="logo d-flex align-items-center me-auto me-xl-0">
+                        <h3 class="sitename">MARCI METZGER </h3>HOMES
+                    </a>
+
+                    <div class="footer-contact pt-3" data-aos="fade-up" data-aos-delay="200">
+                        <p>3190 HW-160, Suite F</p>
+                        <p>Pahrump, Nevada 89048, United States</p>
+                        <p class="mt-3"><strong>Phone:</strong> <span>+(206) 919-6886</span></p>
+                        <p><strong>Email:</strong> <span>marcimetzger@example.com</span></p>
+                    </div>
+
+                    <div class="social-links d-flex mt-4" data-aos="fade-up" data-aos-delay="200">
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Useful Links</h4>
+
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Marci Metzger Home</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Listings</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Partners</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Gallery</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of Service</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Our Services</h4>
+
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Real Estate Consulting</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Development</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Property Management</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Real Estate Appraisal</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12 footer-newsletter" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Our Newsletter</h4>
+
+                    <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+
+                    <form action="forms/newsletter.php" method="post" class="php-email-form">
+                        <div class="newsletter-form"><input type="email" name="email"><input type="submit"
+                                value="Subscribe"></div>
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4" data-aos="fade-up" data-aos-delay="200">
+            <p>© <span>Copyright</span> © <strong class="px-1 sitename">Marci METZGER Homes</strong> - <span>All Rights
+                    Reserved</span></p>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
