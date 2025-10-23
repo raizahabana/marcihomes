@@ -1715,18 +1715,14 @@ section,
     background: var(--accent-color);
 }
 
+
+
 /*--------------------------------------------------------------
-# Starter Section Section
+# Listing Section
 --------------------------------------------------------------*/
-.starter-section {
-    /* Add your styles here */
-}
-
-
-
 section#search-section {
     background: url('f4c4bae1-513f-44de-b1cd-d4fa0ccf3b37.png') center/cover no-repeat;
-    min-height: 100vh;
+    min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
