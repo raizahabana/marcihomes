@@ -28,7 +28,6 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
-
 </head>
 
 <body class="index-page">
@@ -56,38 +55,18 @@
         <div class="branding d-flex align-items-cente">
 
             <div class="container position-relative d-flex align-items-center justify-content-between">
-                <a href="home.php" class="logo d-flex align-items-center me-auto me-xl-0">
+                <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
                     <h3 class="sitename">MARCI METZGER </h3>HOMES
                 </a>
 
                 <nav id="navmenu" class="navmenu">
                     <ul>
                         <!-- <li><a href="#hero" class="active">Home<br></a></li> -->
-                        <li><a href="#about">About US</a></li>
+                        <li><a href="#about">About Us</a></li>
                         <li><a href="#listing">Listing</a></li>
+                        <li><a href="#services">Services</a></li>
                         <li><a href="#partner">Partner</a></li>
                         <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <!-- <li><a href="#contact">Contact Us</a></li> -->
-                        <!-- <li class="dropdown"><a href="#"><span>Furniture</span> <i
-                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li><a href="#">Furniture 1</a></li>
-                                <li class="dropdown"><a href="#"><span>New Furniture</span> <i
-                                            class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                    <ul>
-                                        <li><a href="#">New Furniture 1</a></li>
-                                        <li><a href="#">New Furniture 2</a></li>
-                                        <li><a href="#">New Furniture 3</a></li>
-                                        <li><a href="#">New Furniture 4</a></li>
-                                        <li><a href="#">New Furniture 5</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Furniture 2</a></li>
-                                <li><a href="#">Furniture 3</a></li>
-                                <li><a href="#">Furniture 4</a></li>
-                            </ul>
-                        </li> -->
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
@@ -105,15 +84,14 @@
         <!-- Hero Section -->
         <section id="hero" class="hero section dark-background">
 
-            <img src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/mtn%20falls%20pond.jpg"
-                alt="" data-aos="fade-in">
-
+           
 
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
                         <p data-aos="fade-up" data-aos-delay="200">Pahrump Realtor</p>
-                        <h2 data-aos="fade-up" data-aos-delay="100">MARCI METZGER - <span>THE RIDGE REALTY GROUP</span>
+                        <h2 data-aos="fade-up" data-aos-delay="100">MARCI METZGER - <span style="color:#f15b2a;">THE
+                                RIDGE REALTY GROUP</span>
                         </h2>
                         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
                             <a href="#menu" class="cta-btn">Explore</a>
@@ -133,9 +111,9 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="row gy-4">
-                    <div class="col-lg-4 order-1 order-lg-2 mx-auto">
+                    <div class="col-lg-4 order-1 order-lg-2 mx-auto d-flex justify-content-center align-items-center">
                         <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/photo-5db79f9.jpg/:/cr=t:14.65%25,l:0%25,w:100%25,h:66.64%25/rs=w:365,h:365,cg:true"
-                            class="img-fluid about-img" alt="" style="width: 350px; height: 350px;">
+                            class="img-fluid about-img mx-5" alt="" style="width: 350px; height: 350px;">
                     </div>
                     <div class="col-lg-8 order-2 order-lg-1 content">
                         <h3>Marci J Metzger</h3>
@@ -165,15 +143,141 @@
 
         </section><!-- /About Section -->
 
-           <!-- Events Section -->
-    <section id="events" class="events section">
+        <!-- Search Section -->
+        <section id="listing">
+            <div class="search-box">
+                <h4>Search Listings</h4>
+                <form id="searchForm" class="row g-3">
+                    <div class="col-md-4">
+                        <label class="form-label">Location</label>
+                        <select class="form-select">
+                            <option>Select Location</option>
+                            <option>Seattle</option>
+                            <option>Los Angeles</option>
+                            <option>Miami</option>
+                            <option>New York</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Type</label>
+                        <select class="form-select">
+                            <option>Any</option>
+                            <option>Villa</option>
+                            <option>Apartment</option>
+                            <option>Townhouse</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Sort By</label>
+                        <select class="form-select">
+                            <option>Newest</option>
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label">Bedrooms</label>
+                        <select class="form-select">
+                            <option>Any Number</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4+</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label">Baths</label>
+                        <select class="form-select">
+                            <option>Any Number</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3+</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label">Min Price</label>
+                        <input type="number" class="form-control" placeholder="$">
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label">Max Price</label>
+                        <input type="number" class="form-control" placeholder="$">
+                    </div>
+                    <div class="col-12 text-center mt-3">
+                        <button type="button" class="btn btn-search" data-bs-toggle="modal"
+                            data-bs-target="#resultsModal">
+                            SEARCH NOW
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
 
-      <img class="slider-bg" src="https://i.pinimg.com/1200x/13/ec/7d/13ec7d6588e0a143cede2c59b580481f.jpg" alt="" data-aos="fade-in">
+        <!-- Modal with Property Results -->
+        <div class="modal fade" id="resultsModal" tabindex="-1" aria-labelledby="resultsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="resultsModalLabel">Featured Villas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
 
-      <div class="container">
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                                        class="card-img-top" alt="Villa">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Luxury Villa</h5>
+                                        <p class="card-text">123 Palm Street, Miami, FL</p>
+                                        <p class="fw-bold text-primary">$1,250,000</p>
+                                    </div>
+                                </div>
+                            </div>
 
-        <div class="swiper init-swiper" data-aos="fade-up" data-aos-delay="100">
-          <script type="application/json" class="swiper-config">
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                                        class="card-img-top" alt="Villa">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Modern Beach House</h5>
+                                        <p class="card-text">45 Ocean Blvd, Los Angeles, CA</p>
+                                        <p class="fw-bold text-primary">$980,000</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                                        class="card-img-top" alt="Villa">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hilltop Villa</h5>
+                                        <p class="card-text">22 Ridgeway Ave, Seattle, WA</p>
+                                        <p class="fw-bold text-primary">$1,450,000</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Events Section -->
+        <section id="services" class="events section">
+
+            <img class="slider-bg" src="https://i.pinimg.com/1200x/13/ec/7d/13ec7d6588e0a143cede2c59b580481f.jpg" alt=""
+                data-aos="fade-in">
+
+            <div class="container">
+
+                <div class="swiper init-swiper" data-aos="fade-up" data-aos-delay="100">
+                    <script type="application/json" class="swiper-config">
             {
               "loop": true,
               "speed": 600,
@@ -188,103 +292,125 @@
               }
             }
           </script>
-          <div class="swiper-wrapper">
+                    <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <div class="row gy-4 event-item">
-                <div class="col-lg-6">
-                  <img src="https://img1.wsimg.com/isteam/stock/3395/:/cr=t:11.02%25,l:0%25,w:100%25,h:77.95%25/rs=w:600,h:300,cg:true/qt=q:8" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Top Residential Sales Last 5 Years</h3>
-                  <p class="fst-italic">
-                   We helped nearly 90 clients in 2021, and closed 28.5 million in sales! 
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check2-circle"></i> <span>Consistently ranked among the top-performing residential sales teams in our area.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Delivering personalized service and expert guidance to every client, every time.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Dedicated to continuous improvement and achieving record-breaking results year after year.</span></li>
-                  </ul>
-                  <p>
-                    Our team works hard everyday to grow and learn, so that we may continue to excel in our market. Our clients deserve our best, & we want to make sure our best is better every year.
-                  </p>
-                </div>
-              </div>
-            </div><!-- End Slider item -->
+                        <div class="swiper-slide">
+                            <div class="row gy-4 event-item">
+                                <div class="col-lg-6">
+                                    <img src="https://img1.wsimg.com/isteam/stock/3395/:/cr=t:11.02%25,l:0%25,w:100%25,h:77.95%25/rs=w:600,h:300,cg:true/qt=q:8"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                                    <h3>Top Residential Sales Last 5 Years</h3>
+                                    <p class="fst-italic">
+                                        We helped nearly 90 clients in 2021, and closed 28.5 million in sales!
+                                    </p>
+                                    <ul>
+                                        <li><i class="bi bi-check2-circle"></i> <span>Consistently ranked among the
+                                                top-performing residential sales teams in our area.</span></li>
+                                        <li><i class="bi bi-check2-circle"></i> <span>Delivering personalized service
+                                                and expert guidance to every client, every time.</span></li>
+                                        <li><i class="bi bi-check2-circle"></i> <span>Dedicated to continuous
+                                                improvement and achieving record-breaking results year after
+                                                year.</span></li>
+                                    </ul>
+                                    <p>
+                                        Our team works hard everyday to grow and learn, so that we may continue to excel
+                                        in our market. Our clients deserve our best, & we want to make sure our best is
+                                        better every year.
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End Slider item -->
 
-            <div class="swiper-slide">
-              <div class="row gy-4 event-item">
-                <div class="col-lg-6">
-                  <img src="https://img1.wsimg.com/isteam/stock/107927/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300/qt=q:8g" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Don't Just List it...</h3>
-                  <p class="fst-italic">
-                    Get it SOLD! 
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check2-circle"></i> <span>Maximum Exposure, Maximum Results – We market your home everywhere buyers are looking to get it sold fast and for top dollar.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Driven to Sell, Not Just List – Every listing gets a customized marketing strategy designed to attract serious buyers.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Your Home, Our Mission – We don’t stop until your property is sold for the best possible price.</span></li>
-                  </ul>
-                  <p>
-                   We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.
-                  </p>
-                </div>
-              </div>
-            </div><!-- End Slider item -->
+                        <div class="swiper-slide">
+                            <div class="row gy-4 event-item">
+                                <div class="col-lg-6">
+                                    <img src="https://img1.wsimg.com/isteam/stock/107927/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300/qt=q:8g"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                                    <h3>Don't Just List it...</h3>
+                                    <p class="fst-italic">
+                                        Get it SOLD!
+                                    </p>
+                                    <ul>
+                                        <li><i class="bi bi-check2-circle"></i> <span>Maximum Exposure, Maximum Results
+                                                – We market your home everywhere buyers are looking to get it sold fast
+                                                and for top dollar.</span></li>
+                                        <li><i class="bi bi-check2-circle"></i> <span>Driven to Sell, Not Just List –
+                                                Every listing gets a customized marketing strategy designed to attract
+                                                serious buyers.</span></li>
+                                        <li><i class="bi bi-check2-circle"></i> <span>Your Home, Our Mission – We don’t
+                                                stop until your property is sold for the best possible price.</span>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        We exhaust every avenue to ensure our listings are at the fingertips of every
+                                        possible buyer, getting you top dollar for your home.
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End Slider item -->
 
-            <div class="swiper-slide">
-              <div class="row gy-4 event-item">
-                <div class="col-lg-6">
-                  <img src="https://img1.wsimg.com/isteam/stock/771/:/cr=t:5.36%25,l:1.76%25,w:96.47%25,h:89.29%25/rs=w:600,h:300,cg:true,m/qt=q:8" class="img-fluid" alt="">
+                        <div class="swiper-slide">
+                            <div class="row gy-4 event-item">
+                                <div class="col-lg-6">
+                                    <img src="https://img1.wsimg.com/isteam/stock/771/:/cr=t:5.36%25,l:1.76%25,w:96.47%25,h:89.29%25/rs=w:600,h:300,cg:true,m/qt=q:8"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                                    <h3>Guide to Buyers</h3>
+                                    <p class="fst-italic">
+                                        Nobody knows the market like we do. Enjoy having a pro at your service.
+                                    </p>
+                                    <ul>
+                                        <li><i class="bi bi-check2-circle"></i> <span>Expert Market Insights: Get access
+                                                to in-depth market analysis and personalized buying guidance.</span>
+                                        </li>
+                                        <li><i class="bi bi-check2-circle"></i> <span>Trusted Local Network: From
+                                                contractors to inspectors — we’ve got the right people ready to
+                                                help.</span></li>
+                                        <li><i class="bi bi-check2-circle"></i> <span>Seamless Buying Experience: Enjoy
+                                                stress-free home buying with expert support every step of the
+                                                way.</span></li>
+                                    </ul>
+                                    <p>
+                                        Market analysis, upgrades lists, contractors on speed dial, & more!
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- End Slider item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Guide to Buyers</h3>
-                  <p class="fst-italic">
-                    Nobody knows the market like we do. Enjoy having a pro at your service.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check2-circle"></i> <span>Expert Market Insights: Get access to in-depth market analysis and personalized buying guidance.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Trusted Local Network: From contractors to inspectors — we’ve got the right people ready to help.</span></li>
-                    <li><i class="bi bi-check2-circle"></i> <span>Seamless Buying Experience: Enjoy stress-free home buying with expert support every step of the way.</span></li>
-                  </ul>
-                  <p>
-                    Market analysis, upgrades lists, contractors on speed dial, & more!
-                  </p>
-                </div>
-              </div>
-            </div><!-- End Slider item -->
 
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
+            </div>
 
-      </div>
-
-    </section><!-- /Events Section -->
+        </section><!-- /Events Section -->
 
         <!-- Partner Section -->
-        <section id="partner" class="py-4 bg-white align-items-center">
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row gy-4 m-5">
-                    <div class="col-lg-3">
+        <section id="partner" class="py-4 bg-white">
+            <div class="container d-flex justify-content-center align-items-center" data-aos="fade-up"
+                data-aos-delay="100">
+                <div class="row m-4">
+                    <div class="col-lg-3 col-md-3 d-flex justify-content-center align-items-center my-4">
                         <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/BIG%20CIRCLE%202.png/:/rs=h:100,cg:true,m"
-                            srcset="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/BIG%20CIRCLE%202.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100, //img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/BIG%20CIRCLE%202.png/:/rs=w:200,h:200,cg:true,m/cr=w:200,h:200 2x"
-                            alt="The Ridge Realty Group" class="img-fluid" style="max-height:100px;">
+                            class="mx-5" alt="The Ridge Realty Group">
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3 d-flex justify-content-center align-items-center my-4">
                         <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/Equal%20Housing%20Logo.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:100,cg:true"
-                            alt="Equal Housing Opportunity" class="img-fluid" style="max-height:100px;">
+                            class="mx-5" alt="Equal Housing Opportunity">
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3 d-flex justify-content-center align-items-center my-4">
                         <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/Realtor%20Pin.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:100,cg:true"
-                            alt="Realtor Logo" class="img-fluid" style="max-height:100px;">
+                            class="mx-5" alt="Realtor Logo">
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3 d-flex justify-content-center align-items-center my-4">
                         <img src="//img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/Chamber.jpg/:/rs=h:100,cg:true,m"
-                            alt="Pahrump Valley Chamber of Commerce" class="img-fluid" style="max-height:100px;">
+                            class="mx-5" alt="Pahrump Valley Chamber of Commerce">
                     </div>
                 </div>
             </div>
@@ -511,7 +637,7 @@
         <div class="container footer-top" data-aos="fade-up" data-aos-delay="100">
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6 footer-about">
-                    <a href="home.php" class="logo d-flex align-items-center me-auto me-xl-0">
+                    <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
                         <h3 class="sitename">MARCI METZGER </h3>HOMES
                     </a>
 
@@ -587,6 +713,7 @@
 
     <!-- Preloader -->
     <div id="preloader"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

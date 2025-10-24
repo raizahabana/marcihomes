@@ -1,12 +1,11 @@
 Home Page Content:
-TopBar
 Navbar/NavMenu
 Hero Section
-About Us
-Listings
-Partners
-Gallery
-Services
-Contact Us
+About Us Section
+Listings Section
+Services Section
+Partners Section
+Gallery Section
+Contact Us Section
 Footer
 
